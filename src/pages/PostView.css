@@ -1,0 +1,61 @@
+﻿.postview-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.back-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.postview-image {
+    width: 100%;
+    max-height: 500px; /* allows tall images */
+    object-fit: contain; /* 🔥 shows full image */
+    background: #f5f5f5; /* subtle background for empty space */
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+.postview-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    color: #222;
+}
+
+.postview-content {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #444;
+}
+
+.postview-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+    .postview-actions .btn-edit {
+        padding: 10px 18px;
+        border-radius: 8px;
+        border: none;
+        background: #e8f0ff;
+        color: #2f5fd7;
+        cursor: pointer;
+    }
+
+    .postview-actions .btn-delete {
+        padding: 10px 18px;
+        border-radius: 8px;
+        border: none;
+        background: #ffeaea;
+        color: #c0392b;
+        cursor: pointer;
+    }

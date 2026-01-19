@@ -1,0 +1,71 @@
+﻿/* 🌸 Page background */
+.auth-container {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #fdf6ec, #f7efe5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Georgia", "Times New Roman", serif;
+}
+
+/* 🧾 Card */
+.auth-card {
+    background: #ffffff;
+    width: 360px;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+/* 🔤 Titles */
+.auth-title {
+    font-size: 26px;
+    margin-bottom: 8px;
+    color: #3a3a3a;
+}
+
+.auth-subtitle {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 24px;
+}
+
+/* ✍️ Inputs */
+.auth-card input {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 14px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+    .auth-card input:focus {
+        outline: none;
+        border-color: #c9a66b;
+    }
+
+/* 🔘 Button */
+.auth-btn {
+    width: 100%;
+    padding: 12px;
+    background: #c9a66b;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+    .auth-btn:hover {
+        background: #b89255;
+    }
+
+/* 🔗 Footer */
+.auth-footer {
+    margin-top: 18px;
+    font-size: 13px;
+    color: #666;
+}

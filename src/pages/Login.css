@@ -1,0 +1,94 @@
+﻿/* 🌿 Page background */
+.auth-container {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f6efe7, #efe6d8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Georgia", "Times New Roman", serif;
+}
+
+/* 📓 Notebook card */
+.auth-card {
+    width: 360px;
+    padding: 34px 30px;
+    background: #fffdf9;
+    border-radius: 14px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+    /* 🧵 Notebook line effect */
+    .auth-card.notebook::before {
+        content: "";
+        position: absolute;
+        left: 18px;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: #e0c9a6;
+    }
+
+/* ✒️ Titles */
+.auth-title {
+    font-size: 26px;
+    color: #3b2f2f;
+    margin-bottom: 6px;
+}
+
+.auth-subtitle {
+    font-size: 14px;
+    color: #7a6a58;
+    margin-bottom: 22px;
+}
+
+/* ✍️ Inputs */
+.auth-card input {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 14px;
+    border-radius: 8px;
+    border: 1px solid #d8cfc4;
+    font-size: 14px;
+    background: #fffefc;
+}
+
+    .auth-card input:focus {
+        outline: none;
+        border-color: #c2a36b;
+    }
+
+/* 📌 Button */
+.auth-btn {
+    width: 100%;
+    padding: 12px;
+    background: #b08968;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+    .auth-btn:hover {
+        background: #9c7557;
+    }
+
+/* 🔗 Footer */
+.auth-footer {
+    margin-top: 18px;
+    font-size: 13px;
+    color: #6b5b4b;
+}
+
+.auth-link {
+    color: #8b5e34;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+    .auth-link:hover {
+        text-decoration: underline;
+    }
